@@ -1,0 +1,15 @@
+git reset --hard <tag/branch/commit id>
+git push --force origin main
+
+
+#git reset without the --hard option resets the commit history, but not the files. 
+# With the --hard option the files in working tree are also reset. (credited user)
+
+#If you wish to commit that state so that the remote repository also 
+# points to the rolled back commit do: git push <reponame> -f (credited user)
+
+https://stackoverflow.com/questions/1616957/how-do-you-roll-back-reset-a-git-repository-to-a-particular-commit
+
+
+git reset --hard h9e098459ea261d762ce6e527b5b544e7cnz4920
+git push --force origin main

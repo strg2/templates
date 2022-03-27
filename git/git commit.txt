@@ -1,0 +1,33 @@
+
+git checkout
+git add .
+git commit -m "message"
+git push origin main
+
+
+# to main
+git checkout;git add .;git commit -m <headline> -m <message>;git push origin main
+
+# to new branch
+git checkout -b your-new-branch;git add .;git commit -m <headline> -m <message>;git push origin your-new-branch
+
+
+# NOTE: in case of error, check that name of branch is correct (e.g. 'main' vs 'master')
+
+
+cd ~
+rm -rf reponame
+git clone https://github.com/username/reponame.git
+cd reponame
+
+cd %HOMEDRIVE%  # %HOMEDRIVE% %USERPROFILE%
+del /s /q reponame
+git clone https://github.com/username/reponame.git
+cd reponame
+
+
+
+# github
+# copy to 
+gedit ~/.git-credentials
+https://my@email.com:ghp_WS4SxoH7F0UNdW2iuhgflAuPqNXlvR4cCoBa@github.com
