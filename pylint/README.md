@@ -1,5 +1,8 @@
 # Usage
 ```
+wget https://raw.githubusercontent.com/strg2/templates/main/pylint/pylintrc
+wget https://google.github.io/styleguide/pylintrc
+
 # single file
 pylint --rcfile=pylintrc --exit-zero script.py
 
